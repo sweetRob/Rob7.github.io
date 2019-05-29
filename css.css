@@ -1,0 +1,71 @@
+body {
+	background-image: url('http://www.alexpdesigns.com/images/background.jpg');
+	background-size: 100% 1000px;
+	background-repeat: no-repeat; 
+	padding-top: 50px;
+}
+
+.smallDiv {
+	display: flex;
+	justify-content: space-around;
+	margin:0 auto;
+	width: 33%;
+
+}
+
+i {
+	cursor: pointer;
+	color: white;
+}
+
+i:hover {
+	opacity: 0.6;
+}
+.leftDiv{
+	padding-top:10px; 
+	padding-bottom: 10px;
+}
+
+
+.myphoto{
+	height: 100%;
+
+}
+.middleDiv{
+	overflow: hidden;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-between; 
+	margin: 0 auto;
+	margin-top:30px;
+	width: 90%;
+	background-color: white;
+}
+
+.imgRight{
+	padding-top: 0;
+
+}
+.imgDiv {
+	overflow: hidden;
+	margin-left: 10px;
+	background-color: red;
+	width: 180px;
+	height: 260px;
+	border-radius: 50%; 
+}
+
+
+.name{
+	margin-left: 20px;
+	font-family: 'Cabin', sans-serif;
+
+	font-size: 40px;
+}
+
+.p{
+	margin-left: 30px;
+	font-size: 22px;
+	font-family: 'Cabin', sans-serif;
+	font-family: 'Ranga', cursive;
+}
